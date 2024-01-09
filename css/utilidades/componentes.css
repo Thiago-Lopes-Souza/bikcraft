@@ -57,6 +57,11 @@
   color: var(--c0);
   transition: 0.2s;
 }
+@media (max-width: 1000px) {
+  .botao {
+    padding: 12px 24px;
+  }
+}
 @media (max-width: 800px) {
   .titulo-bg {
     padding-top: 40px;
